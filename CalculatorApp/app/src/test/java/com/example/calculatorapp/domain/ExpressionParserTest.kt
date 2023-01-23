@@ -34,7 +34,7 @@ class ExpressionParserTest {
             ExpressionPart.Number(25.0),
             ExpressionPart.Op(Operation.DIVIDE),
             ExpressionPart.Number(1.0),
-            ExpressionPart.Op(Operation.MULTIPLE),
+            ExpressionPart.Op(Operation.MULTIPLY),
             ExpressionPart.Number(3.0),
         )
 
