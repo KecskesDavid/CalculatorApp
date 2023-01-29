@@ -3,7 +3,7 @@ package com.example.calculatorapp.domain
 enum class Operation(val symbol: Char) {
     ADD('+'),
     SUBTRACT('-'),
-    MULTIPLE('*'),
+    MULTIPLY('*'),
     DIVIDE('/'),
     MOD('%');
 }
