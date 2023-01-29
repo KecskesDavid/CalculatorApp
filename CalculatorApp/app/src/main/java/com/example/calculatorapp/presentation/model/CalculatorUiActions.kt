@@ -22,7 +22,7 @@ val calculatorUiActions = listOf() {
         action = CalculatorAction.Op(Operation.MOD)
     )
     CalculatorUiAction(
-        text = "()",
+        text = "/",
         level = CalculatorButtonLevel.Primary,
         action = CalculatorAction.Op(Operation.DIVIDE)
     )
@@ -88,7 +88,7 @@ val calculatorUiActions = listOf() {
         action = CalculatorAction.Number(3)
     )
     CalculatorUiAction(
-        text = "X",
+        text = "+",
         level = CalculatorButtonLevel.Primary,
         action = CalculatorAction.Op(Operation.ADD)
     )
