@@ -1,4 +1,4 @@
-package com.example.calculatorapp.ui.theme
+package com.example.calculatorapp.presentation.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
