@@ -30,7 +30,6 @@ fun CalculatorButton(
 ) {
     Box(
         modifier = modifier
-            .size(80.dp)
             .clip(CircleShape)
             .clickable { onClick() }
             .background(
