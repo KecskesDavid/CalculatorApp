@@ -12,14 +12,14 @@ import com.example.calculatorapp.presentation.model.CalculatorUiAction
 import com.example.calculatorapp.presentation.model.calculatorUiActions
 
 @Composable
-fun ButtonGrid(
+fun  CalculatorButtonGrid(
     listOfButtons: List<CalculatorUiAction>,
     onClick: (CalculatorUiAction) -> Unit,
 ) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(4),
         userScrollEnabled = false,
-        verticalArrangement = Arrangement.spacedBy(30.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         items(listOfButtons.size) {
@@ -35,7 +35,7 @@ fun ButtonGrid(
 @Preview
 @Composable
 fun ButtonGridPreview() {
-    ButtonGrid(listOfButtons = calculatorUiActions) {
+    CalculatorButtonGrid(listOfButtons = calculatorUiActions) {
 
     }
 }

@@ -1,11 +1,13 @@
 package com.example.calculatorapp.domain
 
+import kotlin.math.roundToInt
+
 class ExpressionEvaluator(
     private val expression: List<ExpressionPart>
 ) {
 
     fun evaluate(): Double {
-        return evalExpression(expression).value
+        return (evalExpression(expression).value * 100).roundToInt().toDouble() / 100
     }
 
     private fun evalExpression(expression: List<ExpressionPart>): ExpressionResult {
