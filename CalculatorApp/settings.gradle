@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Calculator App"
 include ':app'
-include ':buildsrc'
+rootProject.name = "Calculator App"
+
