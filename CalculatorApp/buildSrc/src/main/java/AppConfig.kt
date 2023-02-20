@@ -1,4 +1,4 @@
 object AppConfig {
     val versionName = "1.0.0"
-    var versionCode = getGitCommitCount()
+    var versionCode = 1
 }
