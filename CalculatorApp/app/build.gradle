@@ -25,12 +25,14 @@ android {
     buildTypes {
         staging {
             minifyEnabled true
-            applicationIdSuffix = "-staging"
+            applicationIdSuffix = "staging"
+            signingConfig signingConfigs.debug
         }
         release {
             minifyEnabled false
-            applicationIdSuffix = "-prod"
+            applicationIdSuffix = "prod"
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
