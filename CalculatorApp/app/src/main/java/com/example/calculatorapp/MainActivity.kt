@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     color = androidx.compose.material3.MaterialTheme.colorScheme.background
                 ) {
                     CalculatorScreen(
-                        viewModel = calculatorViewModel
+                        viewModel = calculatorViewModel 
                     )
                 }
             }
